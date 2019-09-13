@@ -45,7 +45,7 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
 setup(name='docassemble.ephelloworld',
       version='0.0.1',
       description=('A docassemble extension.'),
-      long_description='# docassemble.ephelloworld\n\nA docassemble extension.\n\n## Author\n\nErin Peters, ebpeters@ualberta.ca\n\n',
+      long_description='# docassemble.ephelloworld\r\n\r\nA docassemble extension.\r\n\r\n## Author\r\n\r\nErin Peters, ebpeters@ualberta.ca\r\n\r\n',
       long_description_content_type='text/markdown',
       author='Erin Peters',
       author_email='ebpeters@ualberta.ca',

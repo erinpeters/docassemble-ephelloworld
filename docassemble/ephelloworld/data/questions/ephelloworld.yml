@@ -1,12 +1,12 @@
 ---
-question: Hello ${ client_firstname } ${ client_lastname } 
-buttons:
-  - Exit: exit
-mandatory: true
----
 question:  |
   What is your name?
 fields: 
   - First Name: client_firstname
   - Last Name: client_lastname
+---
+question: Hello, ${ client_firstname } ${ client_lastname } 
+buttons:
+  - Exit: exit
+mandatory: true
 ---
